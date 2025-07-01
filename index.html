@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantanu Sonawane - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">SS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-img">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h1>Shantanu Sonawane</h1>
+                <p class="subtitle">IT Engineering Student</p>
+                <p class="bio">I'm an enthusiastic IT Engineering student with a strong foundation in frontend development and programming. I enjoy building user-friendly interfaces and solving problems through code. I'm currently expanding my skills through academic and personal projects.</p>
+                <a href="#projects" class="cta-btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Website</h3>
+                    <p>A fully responsive e-commerce platform with user authentication, product catalog, and shopping cart functionality.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>React News App</h3>
+                    <p>A responsive and modern News App built with React.js that fetches real-time news articles from a public API. The app allows users to browse news by categories such as Business, Technology, Sports, Entertainment, Health, and more. It features a clean UI, smooth navigation, and loads articles dynamically using React hooks and functional components.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ShantanuSonawane25/News-App" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://news-app-five-rust.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Snake Game</h3>
+                    <p>a classic Snake game built using HTML, CSS, and JavaScript. The objective of the game is to control a snake that grows in length as it eats food, while avoiding collisions with the walls and itself.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ShantanuSonawane25/Snake-Game" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://shantanusonawane25.github.io/Snake-Game/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Visualization Dashboard</h3>
+                    <p>An interactive dashboard displaying real-time data with charts, graphs, and filtering capabilities.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="skill-name">Java</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-name">C/C++</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="skill-name">Python</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-name">SQL</div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities and interesting projects.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ShantanuSonawane25" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shantanu-sonawane-68aa602b7/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:sonawaneshantanu1012@gamil.com" target="_blank" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shantanu Sonawane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
