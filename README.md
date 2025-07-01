@@ -7,9 +7,8 @@ This is my personal **portfolio website** created using **HTML, CSS, and JavaScr
 
 ## 🔗 Live Demo
 
-[🌍 View My Portfolio](https://your-live-portfolio-link.com)
+[🌍 View My Portfolio]( https://shantanusonawane25.github.io/Portfolio/)
 
-> (Replace the above link with your actual hosted URL – e.g., GitHub Pages, Netlify, or Vercel)
 
 ---
 
